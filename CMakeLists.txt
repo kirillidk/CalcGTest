@@ -10,3 +10,7 @@ add_library(CalcLib
         IHistory.h
         InMemoryHistory.h InMemoryHistory.cpp
 )
+
+enable_testing()
+
+add_subdirectory(test)
