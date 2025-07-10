@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 
 add_executable(CalcTests
-    MockTests.cpp
-    OverFlowTests.cpp
+    Mock.cpp
+    Overflow.cpp
+    Operations.cpp
+    History.cpp
 )
 
 include(FetchContent)
